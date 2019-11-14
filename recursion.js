@@ -169,4 +169,9 @@ const result = myArr.map(letter => myMap[letter]);
 function hello(arg) {
     console.log(arg);
 }
-hello("Hola")
+hello("Hello")
+
+function hola(arg) {
+    console.log(arg);
+}
+hola("Hola")
