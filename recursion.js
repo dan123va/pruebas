@@ -150,7 +150,7 @@ const myMap = { a: 1, b: 2, c: 3 };
 const result = myArr.map(letter => myMap[letter]);
 // console.log(result);
 
-
+// funciones con sort
 const ar = [5, 1, 3, 7, 25];
 const ar1 = ar;
 console.log("ar1.sort() ", ar1.sort());
