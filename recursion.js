@@ -151,6 +151,7 @@ const result = myArr.map(letter => myMap[letter]);
 // console.log(result);
 
 // funciones con sort
+
 const ar = [5, 1, 3, 7, 25];
 const ar1 = ar;
 console.log("ar1.sort() ", ar1.sort());
@@ -162,3 +163,8 @@ console.log("ar1.sort() ", ar1.sort());
   ar[3] == 25 && console.log("AR ", ar)
 );
 console.log("AR1 ", ar1);
+
+function hello(arg) {
+    console.log(arg);
+}
+hello("Hola")
