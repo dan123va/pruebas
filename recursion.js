@@ -151,20 +151,18 @@ const result = myArr.map(letter => myMap[letter]);
 // console.log(result);
 
 // funciones con sort
-// const ar = [5, 1, 3, 7, 25];
-// const ar1 = ar;
-// console.log("ar1.sort() ", ar1.sort());
-// (
-//   [5, 25].indexOf(ar[1]) != -1 && 
-//   console.log("ar.reverse() ", ar.reverse())
-// ) || 
-// (
-//   ar[3] == 25 && console.log("AR ", ar)
-// );
-// console.log("AR1 ", ar1);
 
-
-//JAJAJAJAJAAJAJAJJA
+const ar = [5, 1, 3, 7, 25];
+const ar1 = ar;
+console.log("ar1.sort() ", ar1.sort());
+(
+  [5, 25].indexOf(ar[1]) != -1 && 
+  console.log("ar.reverse() ", ar.reverse())
+) || 
+(
+  ar[3] == 25 && console.log("AR ", ar)
+);
+console.log("AR1 ", ar1);
 
 function hello(arg) {
     console.log(arg);
