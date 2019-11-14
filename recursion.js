@@ -162,3 +162,6 @@ console.log("ar1.sort() ", ar1.sort());
   ar[3] == 25 && console.log("AR ", ar)
 );
 console.log("AR1 ", ar1);
+
+
+//JAJAJAJAJAAJAJAJJA
