@@ -167,6 +167,7 @@ console.log("AR1 ", ar1);
 function hello(arg) {
     console.log(arg);
 }
+
 hello("Hello")
 
 function hola(arg) {
