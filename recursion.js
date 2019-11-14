@@ -165,3 +165,7 @@ console.log("AR1 ", ar1);
 
 
 //JAJAJAJAJAAJAJAJJA
+
+function name(params) {
+    
+}
