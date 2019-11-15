@@ -37,6 +37,12 @@ type Monitor implements Person {
     phone: String
 }
 
+type Administrative {
+    _id: ID!
+    name: String!
+    email: String!
+}
+
 type Query {
     "Devuelve todos los cursos"
     getCourses: [Course]
@@ -48,6 +54,7 @@ type Query {
     getPerson(_id: ID!): Person
     "Ejecuta una busqueda global"
     searchItems(keyword: String!) : [GlobalSearch]
+    getAdministrative(_id: ID!) : Administrative
 }
 input CourseInput {
     title: String!
