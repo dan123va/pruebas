@@ -54,6 +54,7 @@ type Query {
     getPerson(_id: ID!): Person
     "Ejecuta una busqueda global"
     searchItems(keyword: String!) : [GlobalSearch]
+    getAdministratives(_id: ID!) : [Administrative]
     getAdministrative(_id: ID!) : Administrative
 }
 input CourseInput {
